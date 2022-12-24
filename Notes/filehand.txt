@@ -1,0 +1,12 @@
+# Reading operation on file
+
+try:
+    my_file=open('test.txt')
+    #my_file=open(r'F:\Python\Notes\Lecture-1-Introduction.txt')
+    data=my_file.read()     #read all characters from file
+    print(data)
+except Exception as e:
+    print('Error',e)
+finally:
+    my_file.close()
+    print('File is closed successfully.')

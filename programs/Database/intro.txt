@@ -1,0 +1,116 @@
+Database Conectivity:
+1.Xampp Server installation
+2.How to connect to the database software(MYSQL Server.MariaDB version)
+    mysql -h localhost -u root
+    -h = Hostname
+    -u = Username
+
+3.How to create a database in the software
+    Syntax:
+        CREATE DATABASE database_name;
+
+        CREATE DATABASE python_demo;
+
+4.How to viwe the existing databases
+
+        SHOW DATABASES;
+
+5.Select the database for current usage
+    Syntax:
+        USE database_name;
+    
+        USE python_demo;
+
+6.How to create table
+
+Roll Number-int-Primary Key-auto generated
+Name- String(varchar)
+Email id- String(varchar)
+Mobile - bigint
+
+CREATE TABLE table_name
+(
+column_name datatype constraint
+);
+
+CREATE TABLE student
+(rollno INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+email VARCHAR(100) UNIQUE,
+mobile BIGINT
+);
+
+7.Verify if the table is create
+    SHOW TABLES;
+
+8.Inserting data into table
+
+INSERT INTO table_name(column_list)VALUES(value_list);
+
+INSERT INTO student(name,email,mobile)
+VALUES
+('Roshan Sagvekar','rosh@gmail.com',7447557458),
+('Sumit Pawaskar','sumit@gmail.com',9876512345),
+('Sanket Jagdale','sj@gmail.com',7693626194);
+
+9.Viewing data in the table
+Syntax:
+    SELECT * FROM table_name;
+
+    SELECT * FROM student;
+
+10.Updating or modifying data in the table
+Syntax:
+    UPDATE table_name SET column_name=value where column_name=value;
+
+    UPDATE student SET email='sanket@gmail.com' where rollno=3;
+
+11.Deleting data from table
+Syntax:
+    DELETE FROM student where column_name=value;
+
+    DELETE FROM student where rollno=4;
+
+12.Database connectivity with Python(library-pymysql)
+
+    Installation of pymysql
+
+    pip install pymysql
+
+13.Steps 2 and 7 to 10 to be done using Python.
+
+Connection object-Hostname,Username,password,database
+Cursor object
+
+Transaction-insert,update,delete,select commands
+
+Cursor is responsible to execute the transaction and each transaction
+contain sql command.
+
+Every transaction that happens using execute function is temperory.
+Connection.commit()
+the transaction becomes permanent.
+
+
+Commit is not necessary for select statement.
+
+When we want to retrieve the data there are 3 functions to fetch data.
+
+1.fetchall()-all records will be loaded in tuple of tuples.
+2.fetchone()-It will fetch only one record.
+3.fetchmany(size)-When want to implement reaking of data
+
+size=>how amny record?
+
+1.Visual Studio Code(install)
+2.Flask
+    pip install flask
+
+Web development Framework
+
+3.Creation of project folder
+4.Creation py file -->import library 
+5.Add the url router
+6.Add a new folder called templates in the project -templates will contain
+    only HTML pages
+

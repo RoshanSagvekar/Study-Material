@@ -1,0 +1,20 @@
+
+	# Table Contacts
+
+CREATE TABLE Contacts(srno INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(50),
+email VARCHAR(50),
+phone_num BIGINT,
+msg VARCHAR(100),
+date DATE);
+
+
+	# Table posts
+
+CREATE TABLE Posts(srno INT PRIMARY KEY AUTO_INCREMENT,
+title VARCHAR(120),
+tagline VARCHAR(150),
+slug VARCHAR(20),
+content VARCHAR(150),
+img_file VARCHAR(120),
+date DATE);

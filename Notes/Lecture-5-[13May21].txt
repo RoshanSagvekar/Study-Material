@@ -1,0 +1,96 @@
+3.Logical Operator
+    Logical operator used to write 2 or more condition in one single if statements.
+
+    i)AND operator
+        returns true if and only if al the condition is true.
+
+        E.g
+            n1=2 and n2=5
+
+            n1>1 and n2<7   -->True
+            n1>1 and n2>7   -->False
+            n1<1 and n2<7   -->False
+            n1<1 and n2>7   -->False
+
+        ii)OR operator
+            returns true if one of the condition is true,if all condition are
+            false then it will be false.
+
+        E.g
+            n1=2 and n2=5
+
+            n1>1 and n2<7   -->True
+            n1>1 and n2>7   -->True
+            n1<1 and n2<7   -->True
+            n1<1 and n2>7   -->False
+
+        iii)Not Operator
+                It will reverse the result.
+                if result is true false become true and vice versa.
+
+#WAP program to display highest number among 3 entered no.
+
+
+
+4. Membership Operator:-
+    These operator used with sequencial object(iterable object)
+    like list ,tuple,set,dictionary.
+
+    i)in Operator:-
+        check if value is exist in given sequence
+
+    ii)Not in
+        check if the value is not exist in given sequence.
+
+5.Identical Operator
+
+    i)is:-
+        returns true if memory address of 2 variable is same or not.
+
+    ii)is not:-
+        returns true if memory address of 2 variable is different or not.
+
+-5 to 256 the range of the values are resereved into memeory.
+
+6.Bitwise Operator
+    Bitwise Operator:-
+
+&    bitwise And  return 1 bit if both are 1 otherwise 0 
+|    bitwise or   return 1 bit if one of two bits is 1
+^    bitwise E-or return 1 bit if one of the bits is 0 and 
+                  the other bit is 1. if both bits 0 or 1 then 
+                  returns 0.
+3 + 4
+<<   left shift
+                left shift operator shifts the bits of left operand towards 
+                left side for give number of time in right operand.
+                eg
+                    1010<<2  ---> 101000  
+                    0011<<2  ---> 1100
+                simple words, In binary number is append with 
+                with 0s bit at end.
+
+>>  right shift:-
+                right shift operator is exactly opposite the left shift,
+                left side operand bits are shifted to the right side
+                for given number of time.
+
+                e.g
+                    1010 >> 2   --> 0010
+                    0011 >> 2   --> 0000
+                  simple words, In binary number right side bits 
+                  removed from number.
+
+~  one's complement:- 
+                one's complement of any number is equivalent to negative
+                number of it plus.
+
+                It will add one more bit in binary number and change its 
+                sign.
+                
+                i.e 
+                    The one's complement of n is equal -(n+1) 
+                e.g
+                    10 --> 1010
+                    ~10 == -(1010+1)
+                        == -(1011)  --> 11

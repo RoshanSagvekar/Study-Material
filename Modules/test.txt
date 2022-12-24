@@ -1,0 +1,3 @@
+This Write only mode.This Write only mode without Overwriting(i.e append mode
+This Write only mode without Overwriting(i.e append mode
+This Write only mode without Overwriting(i.e append mode

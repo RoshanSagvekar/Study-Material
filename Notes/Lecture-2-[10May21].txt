@@ -1,0 +1,80 @@
+#Python Programming:
+
+print():-
+	-It is a built in function of python which is used to print some messges or content on cosole window.
+	e.g  print("Hello world")
+
+	-We can pass messge to print function to enclose by single quote or double quote.
+
+Attribute /Parameter
+	sep:-Control space between 2 messages.
+	       -By default value of sep parameter is space.
+
+		E.g:-print('Hello' ,'World','Good Evening,'sep='-')
+	
+	end:-  Control end part of message which want to print using print function .
+		The default value is here newline i.e end='\n';
+
+		here 
+		   \n is one of the escape character of python which generate the new line message.
+
+
+Escape Character
+\n:-New Line
+	E.g: print('\nHi,Welcome to Python Programming.\n')
+\t:- Tab
+	E.g: print('\n\tHi,Welcome to Python Programming.\n')
+
+\':- To create single quotes in messge which enclose in single.
+	E.g: print('Hi,Welcome to \'Python\' Programming.')
+
+\":- To create double quotes in messge which enclose in double.
+	 E.g: print('Hi,Welcome to \"Python\" Programming.')
+
+\b:-backspace
+
+
+
+WHAT IS VARIABLE ?
+	-variable is a name of memory location where the values is stored in RAM memory.
+	-variable name must start with letters after letters we can use digit.
+	-variable name are also case sensitive.
+	-It is used to stored the values.
+
+	Syntax:-
+		variable name=value
+
+	-Every variable having a some type of value which can be define once we assigned value to it.
+	-It can be change also in runtime.
+	-Thats why python dynamically type programming
+
+	e.g:
+		a=34
+		print('a:-',a)
+		print('type of a',type(a))
+		b=3.3 
+		print('b:-',b)
+		print('type of b',type(b))
+		c='Roshan'      
+		print('c:-',c)
+		print('type of c',type(c))
+
+WHAT IS DATATYPE?
+	-Datatype is nothing but what type of value we store into the value
+	-Python has following types of datatype.
+
+	->Numeric:-
+		int->	Non-decimal number will be store.
+		float ->	decimal number will be store.
+		bool->	it will store 2 value only true(1) or false(0).
+
+	->Sequence:-
+		str(sequence of character (string))
+		list(sequence of any type of value)
+		tuple(sequence of any fixed number of value)
+		set(sequence of any type value in random order)
+		dictionary(sequence of pair(key-value))
+			e.g Phone Dictionary
+			client name with there number
+			here number are key and name are value.s		
+

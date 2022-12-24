@@ -1,0 +1,53 @@
+ WHAT IS PYTHON?
+	-->Python is one of the high level programming language which develop wide range of application.
+	-->Language is medium of communication.
+	-->To comunicate with machine we have know programming language.
+
+	-->There are 2 types of programming language.
+	1)Low Level
+		Assembly Langauge is one of the low level language
+		which is understand by machine not by humans.
+
+	2)High Level
+		It is intermidiate progamming language which converted into low level language
+		by using interpreter or compiler.
+		It is combination of english and programming terms.
+	
+		It is programming which can easily understand by humans.
+		e.g:C,C++,Python,Java,c# etc
+
+#FEATURES OF PYTHON
+	-->Simple and easy to learn
+		-It is combination of english and programming term.
+		-It is consist of user friendly syntax.
+	
+	-->Open source and Large community.
+
+	-->Cross Platform Programming/Platform indepedent
+		-Platform is enviroment where execute our program.
+		-Platform is combination of hardware and software .
+		  Platform independent means the language which is run on any processor as well as os also.
+
+	-->versatile programming language.
+
+	-->Interpreted programming language(line by line code will be execute)
+
+#HISTORY OF PYTHON
+
+-Python programming language is developed  is by Guido Van Rossum.
+-It is successor language of ABC language.
+-Development of python is started from 1989 & 1st version of python launch in 1994.
+
+
+Python is name of one of comedy show of netherland and guido was fan of the show 
+so he give name python.
+
+
+IDLE-
+	Integrated Development and Learning Environment
+
+IDE-
+	Integrated Development Environment.(It complete package for development including most of libraries.)
+
+
+

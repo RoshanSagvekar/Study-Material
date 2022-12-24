@@ -1,0 +1,32 @@
+
+    Looping statement :- 
+        looping statement are used in python to execute the 
+        the of statement repeately.
+        
+        Each repetition is known as iteration
+        It is know as iteration statements
+        
+        There are 2 type of loop in python.
+        1. for loop
+            when we known the number of iteration we use for loop,
+            or when we want to perform some operation on sequence like 
+            str, list, tuple,set dictionary, 
+        2. while 
+            we we don't known the number of iteration  then
+            while is good to the program.
+1. For loop :-
+    for is used to for iterating sequence of python like list tuple etc.
+    syntax:-
+        for itr_variable in sequence:
+        <-tab-> statements to be execute til sequence is not completed. 
+
+        s1 = 'ITVedant'
+        print("\nstr Iteration")
+        for letter in s1:
+            print(letter,end=', ') 
+
+        l1 = [1,6,'Raj',[12,36],'Jay',21]
+        print("\nList Iteration")
+        for element in l1:
+            print(element,end=', ')
+    

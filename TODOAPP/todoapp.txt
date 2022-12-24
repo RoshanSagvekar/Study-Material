@@ -1,0 +1,52 @@
+TO DO app
+
+1.Create a table.
+
+CREATE TABLE todolist(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    task_title VARCHAR(150) NOT NULL,
+    task_description VARCHAR(1000),
+    doc date,
+    status bool DEFAULT false
+)
+
+INSERT INTO todolist (task_title,task_description,doc)VALUES("Study","Revision Of Flask Framework","2021-06-30");
+
+Website:
+Home Page:
+    1.View all pending Tasks
+        1.1 All pending tasks
+        1.2 Add Tasks
+    2.View all completed Tasks
+
+Step 1:Create two hyperlinks called Pending tasks and Completed tasks.
+
+Pending Task Page:
+1.Creating URL Router to HTML Page
+2.Create a function to load the required data
+3.Create the HTML Page to view all the information
+
+{% %}
+{{}}
+
+scriplets-are used to write python code in HTML page.
+
+When u want to write loops or conditional statement or buisness logic-{% %}
+Display content of python variable 
+
+
+In he pending.html
+
+1.Add a new button or hyperlink to add new task.
+2.Buisness logic for mark as completed button.
+3.Buisness logic for delete button
+
+
+Add new task
+1.Created URL Router
+2.insert.html with Insert form
+
+
+Mark as Completed/Delete
+1.Change the href in pending.html
+2.Create a URL Router.

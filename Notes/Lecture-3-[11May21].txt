@@ -1,0 +1,30 @@
+#Datatype Praticals:
+
+
+Python operator
+
+1.Arithmetic operator
+	+	Addition operator
+
+	-	subtraction operator
+
+	*	Multiplication operator
+
+	/	Division operator
+		-It returns the quotient in the float type.
+
+	//	Floor division
+		-it returns the quotient in the int type.
+
+	%	Modulus operator
+		-it returns the remainder after division.
+
+	**	Exponent operator.
+		  It  is used to calculate and return power of number
+
+		Syntax:
+			number**power
+		e.g:	
+			5**2-->25
+			5**3-->125
+		

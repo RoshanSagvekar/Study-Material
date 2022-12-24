@@ -1,0 +1,17 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"pass",
+        "fb_url":"https://facebook.com/",
+        "tw_url":"https://twitter.com/",
+        "gt_url":"https://github.com/",
+        "blog_name":"Code Hunter",
+        "about_text":"Hi,My Name is Roshan.I am a Python Developer and I can design websites for you.",
+        "no_of_post":2,
+        "admin_user":"admin",
+        "admin_password":"admin",
+        "login_image":"login.jpg",
+        "upload_location":"F:\\Python\\Project\\Blog\\static"
+    }
+}
